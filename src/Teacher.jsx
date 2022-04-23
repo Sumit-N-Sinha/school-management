@@ -87,7 +87,7 @@ const Teacher = () => {
 						<div class="box">
 							<div class="right-side">
 								<div class="box-topic">Add Student</div>
-								<a class="btn btn-danger" href="AddSt" role="button">Add</a>
+								<a class="btn btn-danger" href="AddStByT" role="button">Add</a>
 
 							</div>
 							<i class="bx bx-cart-alt cart"></i>
@@ -95,7 +95,7 @@ const Teacher = () => {
 						<div class="box">
 							<div class="right-side">
 								<div class="box-topic">See Attendence</div>
-								<a class="btn btn-danger" href="Admin" role="button">See</a>
+								<a class="btn btn-danger" href="Attendance" role="button">See</a>
 
 							</div>
 							<i class="bx bxs-cart-add cart two"></i>
@@ -103,7 +103,7 @@ const Teacher = () => {
 						<div class="box">
 							<div class="right-side">
 								<div class="box-topic">Update Student</div>
-								<a class="btn btn-danger" href="Admin" role="button">Update</a>
+								<a class="btn btn-danger" href="UpdateSt" role="button">Update</a>
 
 							</div>
 							<i class="bx bx-cart cart three"></i>

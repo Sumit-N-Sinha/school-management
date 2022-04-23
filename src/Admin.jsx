@@ -83,62 +83,62 @@ const Admin = () => {
 
 				</nav>
 				<div class="home-content">
-      <div class="overview-boxes">
-        <div class="box">
-          <div class="right-side">
-            <div class="box-topic">Add Student</div>
-            <a class="btn btn-danger" href="Add" role="button">Add</a>
-            
-          </div>
-          <i class="bx bx-cart-alt cart"></i>
-        </div>
-        <div class="box">
-          <div class="right-side">
-            <div class="box-topic">Update Student</div>
-            <a class="btn btn-danger" href="Update" role="button">Update</a>
-            
-          </div>
-          <i class="bx bxs-cart-add cart two"></i>
-        </div>
-        <div class="box">
-          <div class="right-side">
-            <div class="box-topic">Delete Student</div>
-            <a class="btn btn-danger" href="Delete" role="button">Delete</a>
-            
-          </div>
-          <i class="bx bx-cart cart three"></i>
-        </div>
-        </div>
+					<div class="overview-boxes">
+						<div class="box">
+							<div class="right-side">
+								<div class="box-topic">Add Student</div>
+								<a class="btn btn-danger" href="AddSt" role="button">Add</a>
 
-        <div class="home-content">
-            <div class="overview-boxes">
-              <div class="box">
-                <div class="right-side">
-                  <div class="box-topic">Add Teacher</div>
-                  <a class="btn btn-danger" href="AddT" role="button">Add</a>
-                  
-                </div>
-                <i class="bx bx-cart-alt cart"></i>
-              </div>
-              <div class="box">
-                <div class="right-side">
-                  <div class="box-topic">Update Teacher</div>
-                  <a class="btn btn-danger" href="UpdateT" role="button">Update</a>
-                  
-                </div>
-                <i class="bx bxs-cart-add cart two"></i>
-              </div>
-              <div class="box">
-                <div class="right-side">
-                  <div class="box-topic">Delete Teacher</div>
-                  <a class="btn btn-danger" href="Student" role="button">Delete</a>
-                  
-                </div>
-                <i class="bx bx-cart cart three"></i>
-              
-      </div>
-    </div>
-  </div></div>
+							</div>
+							<i class="bx bx-cart-alt cart"></i>
+						</div>
+						<div class="box">
+							<div class="right-side">
+								<div class="box-topic">Update Student</div>
+								<a class="btn btn-danger" href="Update" role="button">Update</a>
+
+							</div>
+							<i class="bx bxs-cart-add cart two"></i>
+						</div>
+						<div class="box">
+							<div class="right-side">
+								<div class="box-topic">Delete Student</div>
+								<a class="btn btn-danger" href="DeleteSt" role="button">Delete</a>
+
+							</div>
+							<i class="bx bx-cart cart three"></i>
+						</div>
+					</div>
+
+					<div class="home-content">
+						<div class="overview-boxes">
+							<div class="box">
+								<div class="right-side">
+									<div class="box-topic">Add Teacher</div>
+									<a class="btn btn-danger" href="AddT" role="button">Add</a>
+
+								</div>
+								<i class="bx bx-cart-alt cart"></i>
+							</div>
+							<div class="box">
+								<div class="right-side">
+									<div class="box-topic">Update Teacher</div>
+									<a class="btn btn-danger" href="UpdateT" role="button">Update</a>
+
+								</div>
+								<i class="bx bxs-cart-add cart two"></i>
+							</div>
+							<div class="box">
+								<div class="right-side">
+									<div class="box-topic">Delete Teacher</div>
+									<a class="btn btn-danger" href="DeleteT" role="button">Delete</a>
+
+								</div>
+								<i class="bx bx-cart cart three"></i>
+
+							</div>
+						</div>
+					</div></div>
 			</section>
 		</>
 	);
