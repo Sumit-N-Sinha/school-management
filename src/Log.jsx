@@ -5,7 +5,7 @@ import {
     Route,
     Redirect,
 } from "react-router-dom";
-import Login from './Login';
+import Login from "./Login";
 import Student from './Student';
 import Admin from './Admin';
 import Teacher from './Teacher';
@@ -14,9 +14,10 @@ function Log() {
             <Router>
                 <Switch>
                     <Route exact path="/" component={Login} />
-                    <Route exact={true} path="/admin" component={Admin} />
+                    <Route path="/admin" component={Admin} />
                     <Route path="/teacher" component={Teacher} />
                     <Route path="/student" component={Student} />
+                    <Redirect path="/" />
                 </Switch>
             </Router>
     );

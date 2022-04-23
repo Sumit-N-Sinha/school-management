@@ -1,16 +1,6 @@
 import React from 'react';
 import './Login.css';
 import { Link } from 'react-router-dom';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Redirect,
-} from "react-router-dom";
-import Student from './Student';
-import Admin from './Admin';
-import Teacher from './Teacher';
-
 const d = new Date();
 var met = "";
 const cssStyle = {
@@ -32,9 +22,7 @@ if (d.getHours() >= 0 && d.getHours() <= 11) {
 const Login = () => {
         return (
             <>
-
                 <h1>School Management System</h1>
-
                 <div>
                     <form>
                         <table>
@@ -49,24 +37,27 @@ const Login = () => {
                                 <td>Enter your password :</td>
                                 <td><input type="password" id="pass" placeholder="Your password" required /></td>
                             </tr>
-                            
                             <tr>
                             <th colSpan='2'>
-                                <Link to="/admin">Admin</Link>
-                                </th>
+                            Select your role and login
+                            </th>
                             </tr>
                             <tr>
                             <th colSpan='2'>
-                                <Link to="/student">Student</Link>
+                            <a class="btn btn-primary" href="Admin" role="button">Admin Login</a>
                                 </th>
                             </tr>
                             <tr>
-                            <th colSpan='2'>
-                                <Link to="/teacher">Teacher</Link>
-                                </th>
+                            <td>
+                            <a class="btn btn-primary" href="Student" role="button">Student Login</a>
+                            </td>
+                            <td>
+                            <a class="btn btn-primary" href="Teacher" role="button">Teacher Login</a>
+                            </td>
                             </tr>
                             
                         </table>
+                        
                     </form>
                 </div>
 
@@ -76,6 +67,5 @@ const Login = () => {
                 
             </>
         );
-    
 }
 export default Login;

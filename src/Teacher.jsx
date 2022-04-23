@@ -1,5 +1,6 @@
 import React from "react";
 import './Student.css';
+import './Login.css';
 const Teacher = () => {
 return (
 	<>
@@ -61,7 +62,7 @@ return (
     
         
         <li class="log_out">
-          <a href="Login.js">
+          <a href="http://localhost:3000/">
             <i class="bx bx-log-out"></i>
             <span class="links_name">Log out</span>
           </a>
