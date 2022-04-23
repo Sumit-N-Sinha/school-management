@@ -87,7 +87,7 @@ const Admin = () => {
         <div class="box">
           <div class="right-side">
             <div class="box-topic">Add Student</div>
-            <div class="number">-</div>
+            <a class="btn btn-danger" href="Add" role="button">Add</a>
             
           </div>
           <i class="bx bx-cart-alt cart"></i>
@@ -95,7 +95,7 @@ const Admin = () => {
         <div class="box">
           <div class="right-side">
             <div class="box-topic">Update Student</div>
-            <div class="number">-</div>
+            <a class="btn btn-danger" href="Update" role="button">Update</a>
             
           </div>
           <i class="bx bxs-cart-add cart two"></i>
@@ -103,7 +103,7 @@ const Admin = () => {
         <div class="box">
           <div class="right-side">
             <div class="box-topic">Delete Student</div>
-            <div class="number">-</div>
+            <a class="btn btn-danger" href="Delete" role="button">Delete</a>
             
           </div>
           <i class="bx bx-cart cart three"></i>
@@ -115,7 +115,7 @@ const Admin = () => {
               <div class="box">
                 <div class="right-side">
                   <div class="box-topic">Add Teacher</div>
-                  <div class="number">-</div>
+                  <a class="btn btn-danger" href="AddT" role="button">Add</a>
                   
                 </div>
                 <i class="bx bx-cart-alt cart"></i>
@@ -123,7 +123,7 @@ const Admin = () => {
               <div class="box">
                 <div class="right-side">
                   <div class="box-topic">Update Teacher</div>
-                  <div class="number">-</div>
+                  <a class="btn btn-danger" href="UpdateT" role="button">Update</a>
                   
                 </div>
                 <i class="bx bxs-cart-add cart two"></i>
@@ -131,7 +131,7 @@ const Admin = () => {
               <div class="box">
                 <div class="right-side">
                   <div class="box-topic">Delete Teacher</div>
-                  <div class="number">-</div>
+                  <a class="btn btn-danger" href="Student" role="button">Delete</a>
                   
                 </div>
                 <i class="bx bx-cart cart three"></i>
