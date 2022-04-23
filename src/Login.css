@@ -1,0 +1,39 @@
+body {
+    background-image: url(../imgg/20190805_171157.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    margin-top: auto;
+    margin-bottom: 15%;
+    text-align: center;
+    color: blue;
+    background-color: aqua;
+}
+
+h5,h6 {
+    margin-top: 12%;
+    margin-bottom: auto;
+    color: blue;
+    background-color: aqua;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+table,td,tr {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 1px;
+    border-radius: 5px;
+    color: #000000;
+    background-color: antiquewhite;
+    padding: 2px;
+    border: solid 2px black;
+}
