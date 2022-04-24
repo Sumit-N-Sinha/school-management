@@ -86,7 +86,7 @@ return (
         <div class="box">
           <div class="right-side">
             <div class="box-topic">Notifications</div>
-            <div class="number">-</div>
+            <a class="btn btn-danger" href="Notification" role="button">My Noti</a>
             
           </div>
           <i class="bx bx-cart-alt cart"></i>
@@ -94,7 +94,7 @@ return (
         <div class="box">
           <div class="right-side">
             <div class="box-topic">Attendence</div>
-            <div class="number">-</div>
+            <a class="btn btn-danger" href="AttendanceS" role="button">View</a>
             
           </div>
           <i class="bx bxs-cart-add cart two"></i>
@@ -102,7 +102,7 @@ return (
         <div class="box">
           <div class="right-side">
             <div class="box-topic">Assessments</div>
-            <div class="number">-</div>
+            <a class="btn btn-danger" href="Assessment" role="button">Assessment</a>
             
           </div>
           <i class="bx bx-cart cart three"></i>

@@ -18,6 +18,9 @@ import Update from "./Update";
 import AddStByT from "./AddStByT";
 import UpdateSt from "./UpdateSt";
 import Attendance from "./Attendance";
+import Notification from "./Notification";
+import AttendenceS from "./AttendanceS";
+import Assessment from "./Assessment";
 function Log() {
     return (
             <Router>
@@ -35,6 +38,9 @@ function Log() {
                     <Route path="/addstbyt" component={AddStByT} />
                     <Route path="/attendance" component={Attendance} />
                     <Route path="/updatest" component={UpdateSt} />
+                    <Route path="/notification" component={Notification} />
+                    <Route path="/attendances" component={AttendenceS} />
+                    <Route path="/assessment" component={Assessment} />
                     <Redirect path="/" />
                 </Switch>
             </Router>
